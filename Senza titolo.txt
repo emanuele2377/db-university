@@ -1,0 +1,25 @@
+
+1)SELECT * FROM `students` WHERE YEAR(date_of_birth) = 1990;
+
+ Mostro le righe 0 - 24 (160 del totale, La query ha impiegato 0,0016 secondi.)
+
+____________________________________________
+
+2)SELECT * FROM `courses` WHERE cfu > 10;
+
+ Mostro le righe 0 - 24 (479 del totale, La query ha impiegato 0,0341 secondi.)
+
+____________________________________________
+
+3)SELECT * FROM `students` WHERE YEAR (date_of_birth) > 1994;
+
+ Mostro le righe 0 - 24 (1201 del totale, La query ha impiegato 0,0009 secondi.)
+
+____________________________________________
+
+4)SELECT * FROM `courses` WHERE `period` = "I semestre" AND `year` = 1;
+
+ Mostro le righe 0 - 24 (286 del totale, La query ha impiegato 0,0010 secondi.)
+____________________________________________
+
+5)
