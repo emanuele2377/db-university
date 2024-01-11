@@ -1,0 +1,12 @@
+1)Mostro le righe 0 - 24 (68 del totale, La query ha impiegato 0,0013 secondi.)
+SELECT `degrees`.`id`, `degrees`.`name` FROM `students`JOIN `degrees` ON `students`.`degree_id` = `degrees`.`id` WHERE `degrees`.`name` = 'Corso di Laurea in Economia';
+_______________________________________________
+
+2)SELECT departments.name, degrees.level 
+FROM `degrees` 
+JOIN departments ON departments.id = department_id
+WHERE departments.name ='Dipartimento di Neuroscienze' AND degrees.level = 'magistrale';
+
+
+
+
