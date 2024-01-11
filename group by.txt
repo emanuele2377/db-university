@@ -1,0 +1,16 @@
+1)Mostro le righe 0 - 24 (1083 del totale, La query ha impiegato 0,0630 secondi.)
+
+SELECT COUNT(*) AS enrolment_date FROM students GROUP BY enrolment_date;
+_______________________________________________
+
+2) Mostro le righe 0 - 24 (29 del totale, La query ha impiegato 0,0024 secondi.)
+
+SELECT COUNT(*) AS teachers, office_address FROM `teachers` GROUP BY office_address;
+_______________________________________________
+
+3) Mostro le righe 0 - 0 (1 del totale, La query ha impiegato 0,0392 secondi.)
+SELECT AVG(vote) FROM `exam_student` WHERE vote;
+_______________________________________________
+
+4) Mostro le righe 0 - 24 (75 del totale, La query ha impiegato 0,0017 secondi.)
+SELECT COUNT(*) AS degrees, name FROM `degrees` GROUP BY name;
